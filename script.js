@@ -25,7 +25,6 @@ let age = 40;
 console.log('dette er min alder:'+ ' ' + age)
 
 
-
 //DATATYPER//
 
 //Number
@@ -67,6 +66,14 @@ firstName = 'Marie';
 
 console.log(firstName);
 console.log(medlemEn);
+console.log(medlemTo);
 
+
+function addNr() {
+        let Cupcake = ['smør', 'egg', 'sukker']
+        console.log('Hello World Here is my Cupcake recipe'+ ' ' + Cupcake);
+}
+
+addNr();
 
 
