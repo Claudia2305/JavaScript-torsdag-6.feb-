@@ -1,6 +1,5 @@
 /*
 Datatyper
-
 Oppgaver
 1. Lag variabel name, age, isLearningJs, putt inn forskjellige datatyper om deg selv
 2. Console.log hver variabel
@@ -16,14 +15,26 @@ Oppgaver
 3. Lag en funksjon med en variabel som har en array og console.log arrayet
 
 */
+//(Text alltid i '...' )
+
+const medlemEn = 'Claudia'
+const medlemTo = 'Sonja'
+
+let age = 40;
+
+console.log('dette er min alder:'+ ' ' + age)
+
+
 
 //DATATYPER//
 
 //Number
 
+//ulike variabler VS =var.  HS= data  - Let= var.som endres ex alder - const = var.som ikke endres for ex navn
+
 let number = 23;
 
-//String
+//String (Text alltid i '...' )
 
 let name = 'Anders';
 
@@ -55,5 +66,7 @@ let firstObject = { firstName: 'Anders', age: 20, city: 'Bergen'};
 firstName = 'Marie';
 
 console.log(firstName);
+console.log(medlemEn);
+
 
 
