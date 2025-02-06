@@ -7,7 +7,6 @@ Oppgaver
 4. Lag en array av forskjellige ingredienser til en bakeoppskrift
 
 Funksjon
-
 Oppgaver
 
 1. lag en funksjon som console.log 'Hello World'
@@ -70,10 +69,19 @@ console.log(medlemTo);
 
 
 function addNr() {
-        let Cupcake = ['smør', 'egg', 'sukker']
-        console.log('Hello World Here is my Cupcake recipe'+ ' ' + Cupcake);
+        let Cupcake = ['smør', 'egg', 'sukker.']
+        console.log('Hello World Here is my Cupcake recipe:'+ ' ' + Cupcake + 'Mix dette godt sammen');
 }
 
 addNr();
 
 
+function kalkulator() {
+    let tall1 = 23
+    let tall2 = 27
+    
+    let sum = tall1+tall2;
+    console.log('Hello World I am this young:' + ' ' + sum + ' ' + 'years young!');
+    }
+
+kalkulator();
