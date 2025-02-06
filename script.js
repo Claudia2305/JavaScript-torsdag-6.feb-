@@ -15,7 +15,6 @@ Oppgaver
 2. Lag en funksjon som legger sammen 2 tall
 3. Lag en funksjon med en variabel som har en array og console.log arrayet
 
-
 */
 
 //DATATYPER//
@@ -51,4 +50,10 @@ let numberList = [0, 3, 5];
 
 //Object
 
-let firstObject = {};
+let firstObject = { firstName: 'Anders', age: 20, city: 'Bergen'};
+
+firstName = 'Marie';
+
+console.log(firstName);
+
+
